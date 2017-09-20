@@ -1,11 +1,12 @@
 {
   "name": "music-player",
-  "version": "0.0.0",
+  "version": "0.0.1",
+  "main": "main.js",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --base-href /home/purna/musicPlayer/dist/",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
@@ -22,6 +23,7 @@
     "@angular/platform-browser-dynamic": "^4.2.4",
     "@angular/router": "^4.2.4",
     "core-js": "^2.4.1",
+    "dotenv": "^4.0.0",
     "rxjs": "^5.4.2",
     "zone.js": "^0.8.14"
   },
@@ -33,6 +35,7 @@
     "@types/jasminewd2": "~2.0.2",
     "@types/node": "~6.0.60",
     "codelyzer": "~3.1.1",
+    "electron": "^1.7.6",
     "jasmine-core": "~2.6.2",
     "jasmine-spec-reporter": "~4.1.0",
     "karma": "~1.7.0",
