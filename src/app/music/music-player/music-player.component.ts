@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, EventEmitter, Input. Output } from '@angular/core';
 
 @Component({
   selector: 'app-music-player',
@@ -6,6 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./music-player.component.css']
 })
 export class MusicPlayerComponent implements OnInit {
+  // If song is paused or playing
+  @Input() paused;
+  // Controls
+  @Output() backward = new EventEmitter();
+  @Output() pauseplay = new EventEmitter();
+  @Output() forward = new EventEmitter();
+  @Output() random = new EventEmitter();
+  @Output() stop = new EventEmitter();
 
   constructor() { }
 
