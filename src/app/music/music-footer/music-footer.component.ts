@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-music-footer',
+  selector: 'music-footer',
   templateUrl: './music-footer.component.html',
   styleUrls: ['./music-footer.component.css']
 })

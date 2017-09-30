@@ -1,7 +1,7 @@
 import { Component, OnInit, EventEmitter, Input. Output } from '@angular/core';
 
 @Component({
-  selector: 'app-music-player',
+  selector: 'music-player',
   templateUrl: './music-player.component.html',
   styleUrls: ['./music-player.component.css']
 })
